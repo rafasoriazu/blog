@@ -1,11 +1,11 @@
-title:            Rafa Soriazu
-description:      "Software engineering, JEE, Spring Framework, Javascript, System Administration"
-disqus_shortname: hpstrtheme
+title:            "Rafa Soriazu, IT blog"
+description:      "JEE, Spring Framework, Javascript, IT systems and more..."
+disqus_shortname: rafasoriazublog
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:blog
+url:  http://localhost:4000
 
 # Owner/author information
 owner:
@@ -23,7 +23,7 @@ owner:
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    
 
 # Background image to be tiled on all pages
 background: 

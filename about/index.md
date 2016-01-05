@@ -1,34 +1,89 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About me
+tags: [rafa soriazu, about me, Senior Software Architect, Passionate programmer]
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: false
-modified: 2014-12-24
+modified: 2015-12-24
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+## Computer Science Engineer.
 
-## What HPSTR brings to the table:
+Expert in web applications. Design, development and deployment.
+ 
+Senior Software Architect. Solid experience in JEE, web applications and other programming languages and frameworks.
+ 
+Experience in system administration and RDBMS like Postgresql.
+ 
+Passionate programmer.
+ 
+Siemens PLM Teamcenter postgraduate.
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+<img src="{{ site.url }}/images/about/keepcalm.jpeg" alt="keep calm ">
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
 
-[^1]: Example: *domain.com/category-name/post-title*
+
+## Experience
+
+
+
+### Software Engineer at www.easyfeedback.com
+
+[<img src="{{ site.url }}/images/about/easyfeedback.png" alt="easyfeedback.com">](http://www.easyfeedback.com){: .image-right}
+
+
+With easyfeedback.com Internet users over the world can give feedback to any company. We also provide a feedback management tool.
+
+* Senior Java Developer:
+	* Lead Developer for mobile version and other features of Laexperiencia.com 
+	* Spring Framework and related Spring Technologies (MVC and SWF), JSF, HTML5, Javascript, jQuery Mobile, Hibernate. 
+	* Google APIs integration. Google Places API (Javascript) for searching companies contact information. 
+	* Jasper Reports for exporting data.
+	* Quartz for job scheduling
+* Linux Sysadmin: 
+	* Company's small Intranet set up (8 users): Version Control (Subversion). Jira. Confluence. VMs fordevelopment, test and other environments. Firewall Cisco ASA5505. VPN
+	* Production set up in Amazon EC2.
+	* Company Databases administration. PostgreSQL.
+	* Apache
+	* Backup policies design and implementation
+	* SSL certs purchase and implementation
+	* Pingdom for monitoring the uptime and performance of the website
+
+
+### CTO and Founding Partner at Feedback Networks
+
+[<img src="{{ site.url }}/images/about/logotipoFeedBack.jpg" alt="feedbacknetworks.com">](http://www.feedbacknetworks.com){: .image-right}
+
+Feedback Networks offered on-line surveys to clients which demanded a high privacy of their data and a personalized care.
+
+* Responsible for the design, development, implementation and maintenance of feedbacknetworks.com web applications.
+* Self Made framework based on plain Java Servlets and Enhydra XMLC project. (2002)
+* In charge of production environment hosting. H.A. + Linux + Apache + Tomcat + Postgresql
+* Design of the backup and recovery architecture.
+* Customer care.
+
+### Databases and UML professor at Foro Europeo Campus Empresarial 
+
+Professor in Master's Degree in WebApp Development. This master provided students the competence for programming in any language 
+
+* I was in charge of teaching UML and Databases.
+	As UML teacher and following the RUP, the students learned a framework and diagrams for program design.
+
+* On Databases, students were trained on the fundamentals of database systems.
+
+### Technical support at Congress Management Company 
+
+Medical conferences related to diabetes. 
+
+* LAN, MS Office, Technical Staff management, Assistant Care
+
+### Conference and Event Management software programming. Keylan.
+
+* Visual Basic 6 and MS Access
+
+[If you want to contact me, please visit my Linkedin profile <img src="{{ site.url }}/images/about/In-2C-21px-R.png" alt="Rafa Soriazu Linkedin">](https://www.linkedin.com/in/rafaelsoriazu/en)
+

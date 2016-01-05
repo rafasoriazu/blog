@@ -1,6 +1,6 @@
-title:            "Rafa Soriazu, IT blog"
+title:            "Rafael Soriazu, IT blog"
 description:      "JEE, Spring Framework, Javascript, IT systems and more..."
-disqus_shortname: rafasoriazublog
+disqus_shortname: rafasoriazu
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -11,7 +11,7 @@ url:  http://itnotes.me
 # Owner/author information
 owner:
   name:           Rafa Soriazu
-  avatar:         avatar.jpg
+  avatar:         rafabw.jpg
   bio:            "Software Engineer, Senior JEE Developer, DBA PostgreSQL and Sysadmin Linux"
   email:          rafasoriazu@itnotes.me
   # Social networking links used in footer. Update and remove as you like.

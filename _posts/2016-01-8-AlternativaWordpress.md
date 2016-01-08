@@ -18,8 +18,14 @@ Este post es continuación del [anterior]({% post_url 2015-12-14-Jekyll %}) y pr
 
 ### ¿Cómo funciona?
 Simplificando mucho. A partir de unas plantillas, desde una aplicación web y siguiendo unos sencillos formularios, vamos creando las diferentes páginas o post de nuestro sitio o blog. Además en Wordpress hay múltiples plugins que podemos instalar en nuestro sitio y nos dan una funcionalidad adicional a la de publicar información.
+
+
 Toda esta información se guarda en la base de datos de WP y cada vez que un visitante solicita una de nuestras páginas, Wordpress genera el html que se verá en el navegador.
+
+
 Aunque no lo parezca, porque como usuarios nos parece sencillo y seguramente nuestro proveedor de WP nos evite preocuparnos por estas cosas, hay una base de datos, una aplicación web que tiene que estar funcionando, versiones de esta aplicación, backups..., en el fondo una cierta complejidad asumible.
+
+
 <img src="{{ site.url }}/images/20160108AlternativaWP/Wordpress.jpg" alt="Wordpress">
 
 # La alternativa, sistema de publicación estático, Jekyll
@@ -37,7 +43,7 @@ Es en este punto donde un sistema de publicación estático nos puede servir de 
 
 <img src="{{ site.url }}/images/20160108AlternativaWP/Jekyll.jpg" alt="Jekyll">
 
-# ¿Cual es la ventaja y la potencia frente a un Wordpress o CMS? 
+# ¿Cual es la ventaja frente a un Wordpress? 
 
 * La sencillez de llevar nuestro sitio web completo en un pendrive por ejemplo
 

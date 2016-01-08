@@ -14,7 +14,7 @@ image:
 
 Este post es continuación del [anterior]({% post_url 2015-12-14-Jekyll %}) y pretende explicar de una forma menos “técnica” las **diferencias entre** un sistema de gestión de contenidos o CMS dinámicos como **Wordpress** y un sistema de publicación de contenidos estáticos como **Jekyll**.
 
-# CMS dinámico, Wordpress
+## CMS dinámico, Wordpress
 
 ### ¿Cómo funciona?
 Simplificando mucho. A partir de unas plantillas, desde una aplicación web y siguiendo unos sencillos formularios, vamos creando las diferentes páginas o post de nuestro sitio o blog. Además en Wordpress hay múltiples plugins que podemos instalar en nuestro sitio y nos dan una funcionalidad adicional a la de publicar información.
@@ -28,7 +28,7 @@ Aunque no lo parezca, porque como usuarios nos parece sencillo y seguramente nue
 
 <img src="{{ site.url }}/images/20160108AlternativaWP/Wordpress.jpg" alt="Wordpress">
 
-# La alternativa, sistema de publicación estático, Jekyll
+## La alternativa, sistema de publicación estático, Jekyll
 Un sistema de publicación estático es una vuelta a los orígenes, [kiis](https://es.wikipedia.org/wiki/Principio_KISS), una vuelta a simples páginas html. Las páginas html que se muestran cuando un usuario entra en nuestro sitio web están ya construidas, no hay ningún programa que las monte según llegan las peticiones. 
 
 ### Entonces, si se trata de hacer páginas html ¿Dónde está el truco o la novedad? 
@@ -43,7 +43,7 @@ Es en este punto donde un sistema de publicación estático nos puede servir de 
 
 <img src="{{ site.url }}/images/20160108AlternativaWP/Jekyll.jpg" alt="Jekyll">
 
-# ¿Cual es la ventaja frente a un Wordpress? 
+## ¿Cual es la ventaja frente a un Wordpress? 
 
 * La sencillez de llevar nuestro sitio web completo en un pendrive por ejemplo
 
@@ -65,7 +65,7 @@ Es en este punto donde un sistema de publicación estático nos puede servir de 
 * Limpieza del html generado.
 * Son tantas las ventajas que incluso Wordpress tiene plugins para exportar un sitio web a contenido estático.
 
-# ¿Y cuales son los inconvenientes?
+## ¿Y cuales son los inconvenientes?
 
 * El más importante, en un CMS, los contenidos están disponibles tan pronto como damos a guardar. En un sistema de publicación estático es necesario compilar, crear el sitio y subirlo al servidor. Si se usa Jekyll + Github  este proceso está bastante automatizado.
 
@@ -75,7 +75,7 @@ Es en este punto donde un sistema de publicación estático nos puede servir de 
 
 * La curva de aprendizaje: El éxito de Wordpress es, además de su difusión, la facilidad para que usuarios sin formación técnica creen sus sitios web. Crear contenido con un sistema de publicación estático requiere una formación muy por encima de la que requiere un Wordpress.
 
-# Conclusiones:
+## Conclusiones:
 
 * Los sistemas de publicación estáticos no son rival para CMS como Wordpress, pero tienen un  una oportunidad gracias a la sencillez de conceptos que los sustenta, y más especialmente con el auge de Javascript + APIs REST.
 * Un equipo podría diseñar plantillas para Jekyll, de la misma manera que se diseñan para Wordpress, crear  un sistema de publicación como tiene Github (ver post anterior) y así poder crear contenido estático de mucha calidad y sobre todo muy barato de mantener.  

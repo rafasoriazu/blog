@@ -3,7 +3,7 @@ layout: post
 title: Alternativa a Wordpress
 description: "Wordpress, Blogger... vs sistema de publicación de contenidos estáticos"
 modified: 2015-01-08
-tags: [Jekyll, Wordpress, Blogger, sistema de publicación de contenidos estáticos, CMS ]
+tags: [Jekyll, Wordpress, Blogger, Alternativa a Wordpress ]
 image:
   feature: abstract-8.jpg
   credit: dargadgetz
@@ -12,7 +12,7 @@ image:
 
  
 
-Este post es continuación del [anterior]({% post_url 2015-12-14-Jekyll %}) y pretende explicar de una forma menos “técnica” las **diferencias entre** un sistema de gestión de contenidos o CMS dinámicos como **Wordpress** y una posible alternativa, un sistemas de publicación de contenidos estáticos como **Jekyll**.
+Este post es continuación del [anterior]({% post_url 2015-12-14-Jekyll %}) y pretende explicar de una forma menos “técnica” las **diferencias entre** un sistema de gestión de contenidos o CMS dinámicos como **Wordpress** y un sistema de publicación de contenidos estáticos como **Jekyll**.
 
 # CMS dinámico, Wordpress
 
@@ -49,7 +49,7 @@ Es en este punto donde un sistema de publicación estático nos puede servir de 
 
 <img src="{{ site.url }}/images/20160108AlternativaWP/PenDrive-icon.png" alt="">{: .image-right}
 
-* Una vez creado no hace falta ningún software que no sea el navegador para tener funcionando nuestro sitio web.
+* Una vez creado y compilado nos basta con subir los archivos a cualquier servidor para que estén inmediatamente accesibles.
 
 <img src="{{ site.url }}/images/20160108AlternativaWP/money-icon.png" alt="">{: .image-right}
 
@@ -73,7 +73,7 @@ Es en este punto donde un sistema de publicación estático nos puede servir de 
 
 <img src="{{ site.url }}/images/20160108AlternativaWP/Time-icon.png" alt="">{: .image-right}
 
-* La curva de aprendizaje: El éxito de Wordpress es además de su difusión, la facilidad para que usuarios sin formación técnica creen sus sitios web. Crear contenido con un sistema de publicación estático requiere una formación muy por encima de la que requiere un Wordpress.
+* La curva de aprendizaje: El éxito de Wordpress es, además de su difusión, la facilidad para que usuarios sin formación técnica creen sus sitios web. Crear contenido con un sistema de publicación estático requiere una formación muy por encima de la que requiere un Wordpress.
 
 # Conclusiones:
 

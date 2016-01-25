@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Spring, conceptos básicos
+lang: es
+country: ES
 description: "Spring, conceptos básicos, Inversion of Control,  Dependency Injection"
 modified: 2015-01-20
-tags: [Jekyll, Wordpress, Blogger, Alternativa a Wordpress ]
+tags: [Spring framework, dependency injection, inversion of control, java]
 image:
   feature: abstract-9.jpg
   credit: dargadgetz
@@ -11,22 +13,21 @@ image:
 ---
 
 
-<img src="{{ site.url }}/images/20160120Spring-conceptos-basicos/image01.png" alt="Spring Framework logo">{: .image-right} 
-En este post voy a intentar demostrar la sencillez dos conceptos muy importantes en Spring:
+[<img src="{{ site.url }}/images/20160120Spring-conceptos-basicos/image01.png" alt="Spring Framework logo">{: .image-right}](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html){:target="_blank"}
+En este post voy a intentar demostrar la sencillez de dos conceptos muy importantes en Spring:
 
 * Inversion of Control (IoC) = Inversión del Control.
 * Dependecy Injection(DI) =  Inyección de Dependencias. 
 
 
-## Inversion of Control, Dependency Injection
+## Inversion of Control & Dependency Injection
 
-Inversion of Control (IoC) = Dependency Injection (DI)
 
-“Es el proceso mediante el cual los objetos definen sus dependencias, bien mediante argumentos en el constructor, argumentos en un método factoría o propiedades que se asignan una vez el objeto está creado.”
+“**Es el proceso mediante el cual los objetos definen sus dependencias**, bien mediante argumentos en el constructor, argumentos en un método factoría o propiedades que se asignan una vez el objeto está creado.”
 
 La definición de estas dependencias se puede hacer con xml, anotaciones o mediante código java.
 
-<img src="{{ site.url }}/images/20160120Spring-conceptos-basicos/image00.png" alt="Formatos expresar dependencias">
+<img src="{{ site.url }}/images/20160120Spring-conceptos-basicos/image00.png" alt="Formatos expresar dependencias">{: .image-center} 
 
 
 Entonces aparece en escena nuestro amigo el contenedor: 
@@ -35,22 +36,23 @@ Entonces aparece en escena nuestro amigo el contenedor:
  	org.springframework.context.ApplicationContext
 {% endhighlight %}
 
-“es el contenedor quien inyecta las dependencias al crear el bean.
-Este proceso es el inverso a la creación de instancias o asignación de dependencias usando la creación directa de las mismas o un mecanismo como Service Locator Pattern”
+Es el contenedor quien inyecta las dependencias al crear el bean.
+
+Este proceso es el inverso a la creación de instancias o asignación de dependencias, tanto usando la creación directa de las mismas o un mecanismo como Service Locator Pattern.
 
 <img src="{{ site.url }}/images/20160120Spring-conceptos-basicos/image03.png" alt="Esquema funcionamiento contenedor Spring">
 
 
-Por resumirlo mucho, en lugar de ser las clases las que instancian, es el contenedor quien hace el trabajo, de ahí el nombre Inversion of Control.(Inversión del control)
+Por resumirlo mucho: Es el contenedor quien hace el trabajo de crear instancias en lugar de las clases, de ahí el nombre Inversion of Control.(Inversión del control)
 
 
 No mas “a = new A(....);” este trabajo sucio se lo dejamos al contenedor (IoC container).
 
 
-Otro concepto importante, Bean: Un bean es un objeto que es instanciado, ensamblado o gestionado por un IoC Container.
+Bean: Un bean es un objeto que es instanciado, ensamblado o gestionado por un IoC Container.
 
 
-Una de las ventajas de usar un contenedor (IoC Container) es que la gestión de dependencias ya no se hace dentro de las clases. Cada clase o Bean es autocontenida, sólo tiene que preocuparse de su alcance, será el contenedor quien le proporcione las instancias de clases que necesita.
+Una de las ventajas de usar un contenedor (IoC Container), es que la gestión de dependencias ya no se hace dentro de las clases. Cada clase o Bean es autocontenida, sólo tiene que preocuparse de su alcance, será el contenedor quien le proporcione las instancias de clases que necesita.
 
 
 {% highlight java %}

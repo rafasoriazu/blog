@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Alternativa a Wordpress
+lang: es
+country: ES
 description: "Wordpress, Blogger... vs sistema de publicación de contenidos estáticos"
 modified: 2015-01-08
 tags: [Jekyll, Wordpress, Blogger, Alternativa a Wordpress ]

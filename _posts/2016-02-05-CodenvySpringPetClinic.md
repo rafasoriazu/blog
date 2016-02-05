@@ -53,6 +53,8 @@ image:
 
 ## Despliegue de Spring Pet Clinic en un minuto
 
+[https://github.com/spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic)
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/GcmePXS68_I" frameborder="0" allowfullscreen></iframe>
 
 

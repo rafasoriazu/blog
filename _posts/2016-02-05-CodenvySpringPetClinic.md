@@ -17,7 +17,7 @@ image:
 
 “On-demand developer workspaces”
 
-* Se accede sólo con el navegador.
+* Con el navegador es suficiente.
 <img src="{{ site.url }}/images/20160205Codenvy/Free-Browser-Icons.png" alt="Codenvy en navegadores">{: .image-right}
 * Múltiples lenguajes de programación.
 * No hay que instalar software en nuestros equipos.
